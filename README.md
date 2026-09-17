@@ -109,7 +109,7 @@ P.S.: если при запуске некоторые контейнеры б�
 `./data:/var/lib:Z`
 #
 
-![T1](https://github.com/smabramov/monitoring-02-systems/blob/93ba04a7bc4ef474f394b1c08356463a13776bc9/png/T1.png)
+<img width="1172" height="735" alt="30" src="https://github.com/user-attachments/assets/21297d2a-0ea6-4aa4-8aee-c21473b2a1fb" />
 
 8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.
         
@@ -121,7 +121,7 @@ P.S.: если при запуске некоторые контейнеры б�
 Для выполнения задания приведите скриншот с отображением метрик утилизации cpu из веб-интерфейса.
 #
 
-![T2](https://github.com/smabramov/monitoring-02-systems/blob/93ba04a7bc4ef474f394b1c08356463a13776bc9/png/T2.png)
+<img width="1172" height="768" alt="31" src="https://github.com/user-attachments/assets/67275f96-3fb9-4d05-98d4-a312e83e2821" />
 
 9. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). 
 Добавьте в конфигурацию telegraf следующий плагин - [docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker):
@@ -150,7 +150,7 @@ P.S.: если при запуске некоторые контейнеры б�
 После настройке перезапустите telegraf, обновите веб интерфейс и приведите скриншотом список `measurments` в 
 веб-интерфейсе базы telegraf.autogen . Там должны появиться метрики, связанные с docker.
 
-![T3](https://github.com/smabramov/monitoring-02-systems/blob/93ba04a7bc4ef474f394b1c08356463a13776bc9/png/T3.png)
+<img width="1860" height="866" alt="32" src="https://github.com/user-attachments/assets/b1cdb463-9b9f-4f91-8617-59d6dc09ec40" />
 
 Факультативно можете изучить какие метрики собирает telegraf после выполнения данного задания.
 
@@ -199,9 +199,5 @@ P.P.S.: по желанию можно себя не ограничивать т
     - фантазируйте)
     
     ---
-
-### Как оформить ДЗ?
-
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
 
 ---
